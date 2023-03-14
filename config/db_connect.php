@@ -1,7 +1,7 @@
 <?php
 
 // konekcija baze
-$conn = mysqli_connect('localhost', 'root', 'ivan19', 'sajt_vesti');
+$conn = mysqli_connect('localhost', 'user', 'pass', 'ime_baze');
 
 // proveri konekciju
 if (!$conn) {
